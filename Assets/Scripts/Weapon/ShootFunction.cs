@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Weapon;
 
 public class ShootFunction : MonoBehaviour
 {
@@ -70,6 +71,39 @@ public class ShootFunction : MonoBehaviour
     
     private void instantiateBullet(GameObject bullet)
     {
+        if (bullet == null)
+        {
+            Debug.LogError("La bala es nula, no se puede instanciar.");
+            return;
+        }
+
+        // Crear la bala usando la fábrica
+        string bulletType = bullet.name.Replace("Ammo", "").Split('(')[0].Trim();; // Obtener el tipo de bala sin "(Clone)"
+        GameObject instantiatedBullet = AmmoFactory.CreateAmmo(bulletType, bullet.transform);
+
+        if (instantiatedBullet != null)
+        {
+            // Configurar propiedades de la bala después de ser creada
+            instantiatedBullet.transform.position = shootPivot.position;
+            instantiatedBullet.transform.rotation = bullet.transform.rotation;
+
+            Rigidbody rb = instantiatedBullet.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.isKinematic = false; // Permitir físicas para que la bala sea disparada
+                rb.AddForce(GameObject.FindGameObjectWithTag("Player").transform.GetChild(0).transform.forward * shootForce, ForceMode.Impulse); // Aplicar fuerza
+            }
+        }
+        else
+        {
+            Debug.LogError($"No se pudo crear la bala de tipo: {bulletType}");
+        }
+    }
+
+    
+    /*
+    private void instantiateBullet(GameObject bullet)
+    {
         if (bullet != null)
         {
             GameObject bulletInstance = Instantiate(bullet, shootPivot.position, Quaternion.identity, null);
@@ -77,10 +111,10 @@ public class ShootFunction : MonoBehaviour
             bulletInstance.GetComponent<Collider>().enabled = true;
             bulletInstance.GetComponent<Rigidbody>().useGravity = false;
             bulletInstance.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
-            bulletInstance.GetComponent<Rigidbody>().AddForce(GameObject.FindGameObjectWithTag("Player").transform.GetChild(0).transform.forward /*Getting Camera Forward*/ * shootForce, ForceMode.Impulse);
+            bulletInstance.GetComponent<Rigidbody>().AddForce(GameObject.FindGameObjectWithTag("Player").transform.GetChild(0).transform.forward * shootForce, ForceMode.Impulse);
             Destroy(bulletInstance, 4);
         }
-    }
+    }*/
     
     private float CalculateRPM(float t)
     {

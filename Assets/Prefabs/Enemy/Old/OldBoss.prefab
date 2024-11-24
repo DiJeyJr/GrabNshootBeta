@@ -7392,18 +7392,17 @@ GameObject:
   m_Component:
   - component: {fileID: 4918467078764063093}
   - component: {fileID: 3886367029072990289}
+  - component: {fileID: 1268019087640518435}
   - component: {fileID: 1992962796721232678}
   - component: {fileID: 7757549238743908607}
   - component: {fileID: 3924518213012629254}
-  - component: {fileID: 4639021826131603891}
-  - component: {fileID: -1627425441369281654}
   m_Layer: 0
-  m_Name: Boss
+  m_Name: OldBoss
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4918467078764063093
 Transform:
   m_ObjectHideFlags: 0
@@ -7444,6 +7443,23 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 30, y: 45, z: 25}
   m_Center: {x: -4.6, y: 30.13, z: 37.22}
+--- !u!114 &1268019087640518435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8561291181929088971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70de26c5b3db30345a24a15893927b94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 2400
+  charElement: 2
+  health: 0
+  healthBar: {fileID: 6704290714336086920}
+  playerHealOnKill: 10
 --- !u!65 &1992962796721232678
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7508,33 +7524,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 228f5fd7d422d094e8117f2e8059cd30, type: 3}
   - {fileID: 8300000, guid: 5a41872bbbcbc8a42b5b1d888801811d, type: 3}
   - {fileID: 8300000, guid: 7f89005b3bc3d7342bad9a19eb8c8e6b, type: 3}
---- !u!114 &4639021826131603891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8561291181929088971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b72a80110f07b7c4597e78b168c63c40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyElement: 2
-  health: 2000
-  healthBar: {fileID: 6704290714336086920}
---- !u!114 &-1627425441369281654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8561291181929088971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e51b180e35f89854ebde843610579c8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8631055770979886801
 GameObject:
   m_ObjectHideFlags: 0

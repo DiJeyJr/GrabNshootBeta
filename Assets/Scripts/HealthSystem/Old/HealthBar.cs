@@ -10,7 +10,7 @@ public class HealthBar : MonoBehaviour
 
     private float xScalebar;
 
-    public void updateHealthBar(int HealthValue, int MaxHealthValue)
+    public void updateHealthBar(float HealthValue, float MaxHealthValue)
     {
         float maxHealth = MaxHealthValue;
         float currentHealth = HealthValue;

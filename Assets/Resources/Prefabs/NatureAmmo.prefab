@@ -58,8 +58,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -98,7 +96,7 @@ GameObject:
   - component: {fileID: 1842051387218107813}
   - component: {fileID: 1774045230712555445}
   - component: {fileID: 7758894961779753662}
-  - component: {fileID: 71530067142199005}
+  - component: {fileID: -6528586759412635636}
   m_Layer: 0
   m_Name: NatureAmmo
   m_TagString: Bullet
@@ -147,8 +145,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -222,7 +218,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &71530067142199005
+--- !u!114 &-6528586759412635636
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -231,9 +227,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 8078572757779055306}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2065f264a257c90419ba1ce4309b7738, type: 3}
+  m_Script: {fileID: 11500000, guid: c059c40f7610bfb47b175bb28178cfc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTag: Enemy
-  damage: 10
   bulletElement: 2
+  baseDamage: 10

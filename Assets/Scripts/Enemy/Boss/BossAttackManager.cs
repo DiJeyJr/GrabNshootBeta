@@ -27,7 +27,7 @@ public class BossAttackManager : MonoBehaviour
         }
     }
 
-    private bool isAtacking = false;
+    //private bool isAtacking = false;
 
     private void OnTriggerEnter(Collider other)
     {

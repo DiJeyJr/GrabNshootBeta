@@ -58,8 +58,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -98,7 +96,7 @@ GameObject:
   - component: {fileID: 6821207839675853292}
   - component: {fileID: 1854802871857469176}
   - component: {fileID: 1272927021378286065}
-  - component: {fileID: 4538533894084317241}
+  - component: {fileID: -5152670419796590306}
   m_Layer: 0
   m_Name: WaterAmmo
   m_TagString: Bullet
@@ -147,8 +145,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -222,7 +218,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4538533894084317241
+--- !u!114 &-5152670419796590306
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -231,9 +227,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 8135028889557558614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2065f264a257c90419ba1ce4309b7738, type: 3}
+  m_Script: {fileID: 11500000, guid: c059c40f7610bfb47b175bb28178cfc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTag: Enemy
-  damage: 10
   bulletElement: 1
+  baseDamage: 10

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3174570822049169765}
   - component: {fileID: 498327710657099570}
   - component: {fileID: 4690920558369659531}
-  - component: {fileID: -7800291942392646241}
+  - component: {fileID: 2141288760554468188}
   m_Layer: 0
   m_Name: FireAmmo
   m_TagString: Bullet
@@ -62,6 +62,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -135,7 +137,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-7800291942392646241
+--- !u!114 &2141288760554468188
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,11 +146,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2598505544784733493}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c059c40f7610bfb47b175bb28178cfc9, type: 3}
+  m_Script: {fileID: 11500000, guid: 2065f264a257c90419ba1ce4309b7738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletElement: 0
-  baseDamage: 10
+  targetTag: Enemy
+  damage: 10
+  bulletElement: 3
 --- !u!1 &4206322633770514168
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,6 +210,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

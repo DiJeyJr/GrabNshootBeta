@@ -2690,6 +2690,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -2745,11 +2770,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6311,6 +6331,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -6366,11 +6411,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7510,6 +7550,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -7565,11 +7630,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8760,6 +8820,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -8815,11 +8900,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9971,6 +10051,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -10026,11 +10131,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18183,6 +18283,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -18238,11 +18363,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33589,6 +33709,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -33644,11 +33789,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39575,6 +39715,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -39630,11 +39795,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41573,6 +41733,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -41628,11 +41813,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43534,6 +43714,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -43589,11 +43794,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44216,6 +44416,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -44271,11 +44496,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45978,6 +46198,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -46033,11 +46278,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46556,6 +46796,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -46611,11 +46876,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46629,6 +46889,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -46684,11 +46969,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47650,6 +47930,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -47705,11 +48010,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47886,6 +48186,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -47941,11 +48266,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -50499,6 +50819,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1421632432}
   m_PrefabAsset: {fileID: 0}
+--- !u!195 &1422699041 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 4201402146795869556, guid: c125cf58582463a41a1c1b2609c5a8ce,
+    type: 3}
+  m_PrefabInstance: {fileID: 1333222804}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1426359753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52514,6 +52840,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -52569,11 +52920,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -53854,6 +54200,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -53909,11 +54280,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -59583,6 +59949,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -59638,11 +60029,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -62358,6 +62744,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -62413,11 +62824,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -63326,6 +63732,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -63381,11 +63812,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -66366,6 +66792,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -66421,11 +66872,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -69560,6 +70006,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -69615,11 +70086,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -70400,6 +70866,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -70455,11 +70946,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -75906,6 +76392,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1422699041}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -75961,11 +76472,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -78690,6 +79196,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 4712056185299706996}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1932356443}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: walkPointRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: whatIsPlayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -78698,7 +79229,7 @@ PrefabInstance:
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -128.24612
+      value: -143
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -78708,7 +79239,7 @@ PrefabInstance:
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 298.85324
+      value: -3.3
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -78745,11 +79276,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850658270927522319, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -78758,6 +79284,12 @@ PrefabInstance:
 --- !u!4 &4712056185299706992 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
+    type: 3}
+  m_PrefabInstance: {fileID: 4712056185299706986}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &4712056185299706996 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 4201402146795869556, guid: c125cf58582463a41a1c1b2609c5a8ce,
     type: 3}
   m_PrefabInstance: {fileID: 4712056185299706986}
   m_PrefabAsset: {fileID: 0}

@@ -9,7 +9,7 @@ public class PlayerMotor : MonoBehaviour
     private CharacterController controller;
     private Vector3 playerVelocity;
     private float defaultSpeed;
-    [SerializeField] private float speed = 1f;
+    public float speed = 1f;
     [SerializeField] private float sprintSpeedFactor = 2f;
     
     //Gravity

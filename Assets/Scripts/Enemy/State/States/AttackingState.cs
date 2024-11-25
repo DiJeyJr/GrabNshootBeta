@@ -1,4 +1,3 @@
-// Nombre del archivo: AttackingState.cs
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -19,7 +18,7 @@ public class AttackingState : IEnemyState
 
     public void Enter()
     {
-        Debug.Log("Entering Attacking State");
+        //Debug.Log("Entering Attacking State");
     }
 
 
@@ -40,7 +39,7 @@ public class AttackingState : IEnemyState
 
     public void Exit()
     {
-        Debug.Log("Exiting Attacking State");
+        //Debug.Log("Exiting Attacking State");
     }
 
     private void Attack()

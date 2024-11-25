@@ -179,7 +179,6 @@ GameObject:
   - component: {fileID: 1320357654448461150}
   - component: {fileID: 4179713291405621270}
   - component: {fileID: -1507031831486930277}
-  - component: {fileID: 4347878212970020540}
   - component: {fileID: -7710532403039383995}
   m_Layer: 0
   m_Name: Fire Enemy
@@ -277,32 +276,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e51b180e35f89854ebde843610579c8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4347878212970020540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5896185276933769606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc227a8058804054bb6eeacada589884, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 0}
-  player: {fileID: 0}
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 0
-  whatIsPlayer:
-    serializedVersion: 2
-    m_Bits: 0
-  walkPoint: {x: 0, y: 0, z: 0}
-  walkPointSet: 0
-  walkPointRange: 0
-  sightRange: 0
-  attackRange: 0
-  chaseSpeed: 5
 --- !u!114 &-7710532403039383995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,8 +288,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bdee09a252036945a975f93d1a85ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sightRange: 10
-  attackRange: 2
+  sightRange: 20
+  attackRange: 3
   patrolSpeed: 3
   chaseSpeed: 5
 --- !u!1 &8093298295657783336

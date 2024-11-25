@@ -10,7 +10,7 @@ public class DamageAreas : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            other.GetComponent<HealthManager>().TakeDamage(damage);
+            other.GetComponent<Player>().TakeDamage(damage);
         }
     }
 }

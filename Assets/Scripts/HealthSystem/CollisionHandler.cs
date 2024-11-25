@@ -12,7 +12,7 @@ public class CollisionHandler : MonoBehaviour
             DamageManager damageManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<DamageManager>();
             enemy.TakeDamage(damageManager.CalculateDamage(bullet.baseDamage, bullet.bulletElement, enemy.enemyElement));
 
-            Destroy(bullet.gameObject); // Destruye la bala tras el impacto.
+            Destroy(bullet.gameObject);
         }
     }
 }

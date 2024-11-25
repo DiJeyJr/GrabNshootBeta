@@ -27,8 +27,6 @@ public class BossAttackManager : MonoBehaviour
         }
     }
 
-    //private bool isAtacking = false;
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))

@@ -17,15 +17,14 @@ public class ChasingState : IEnemyState
 
     public void Enter()
     {
-        Debug.Log("Entering Chasing State");
+        //Debug.Log("Entering Chasing State");
         _agent.speed = _enemy.chaseSpeed;
     }
 
     public void Update()
     {
         _agent.SetDestination(_player.position);
-
-        // Cambia al estado de ataque si el jugador está en rango
+        
         if (Vector3.Distance(_agent.transform.position, _player.position) < _enemy.attackRange)
         {
             _enemy.ChangeState(new AttackingState(_enemy, _agent, _player));
@@ -34,6 +33,6 @@ public class ChasingState : IEnemyState
 
     public void Exit()
     {
-        Debug.Log("Exiting Chasing State");
+        //Debug.Log("Exiting Chasing State");
     }
 }

@@ -1,11 +1,14 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
-    public ElementType enemyElement; // Tipo de elemento del enemigo.
-    public float health = 100f;      // Salud del enemigo.
+    public ElementType enemyElement;
+    public float health = 100f;
     private float maxHealth;
+
+    [SerializeField] private bool isBoss = false;
     
     [SerializeField] private GameObject healthBar;
     private HealthBar healthBarScript;
@@ -26,10 +29,14 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(float damage)
     {
         health -= damage;
-        Debug.Log($"Salud restante: {health}");
+        //Debug.Log($"Salud restante: {health}");
         if (health <= 0)
         {
-            Destroy(gameObject); // Elimina al enemigo si la salud llega a 0.
+            Destroy(gameObject);
+            if (isBoss)
+            {
+                SceneManager.LoadScene("SampleScene");
+            }
         }
     }
 

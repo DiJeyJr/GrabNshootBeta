@@ -19237,11 +19237,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4959128714997555756, guid: 69edaeff692196a4dab6ebc067bda143,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0
-      objectReference: {fileID: 0}
     - target: {fileID: 5944677612776482551, guid: 69edaeff692196a4dab6ebc067bda143,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -79718,6 +79713,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 283674264046490355, guid: c6de210e332bbf841885b5cb70a0aa8a,
+        type: 3}
+      propertyPath: damage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107630436627950321, guid: c6de210e332bbf841885b5cb70a0aa8a,
+        type: 3}
+      propertyPath: damage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3490059114664759665, guid: c6de210e332bbf841885b5cb70a0aa8a,
+        type: 3}
+      propertyPath: damage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4639021826131603891, guid: c6de210e332bbf841885b5cb70a0aa8a,
+        type: 3}
+      propertyPath: isBoss
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4918467078764063093, guid: c6de210e332bbf841885b5cb70a0aa8a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -79767,6 +79782,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4943534311836887326, guid: c6de210e332bbf841885b5cb70a0aa8a,
+        type: 3}
+      propertyPath: damage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032099300421266916, guid: c6de210e332bbf841885b5cb70a0aa8a,
+        type: 3}
+      propertyPath: damage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754477291546276996, guid: c6de210e332bbf841885b5cb70a0aa8a,
+        type: 3}
+      propertyPath: damage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207278132224684659, guid: c6de210e332bbf841885b5cb70a0aa8a,
+        type: 3}
+      propertyPath: damage
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8561291181929088971, guid: c6de210e332bbf841885b5cb70a0aa8a,
         type: 3}

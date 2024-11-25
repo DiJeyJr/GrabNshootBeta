@@ -14,7 +14,7 @@ public class DamageManager : MonoBehaviour
 
     public float CalculateDamage(float baseDamage, ElementType bulletElement, ElementType enemyElement)
     {
-        // Selección de la estrategia según el elemento de la bala.
+        // Select strategy based on bullet type
         switch (bulletElement)
         {
             case ElementType.Fire:
@@ -30,13 +30,9 @@ public class DamageManager : MonoBehaviour
                 _damageCalculator.SetStrategy(new NeutralDamageStrategy());
                 break;
         }
-
-        // Cálculo del daño final.
+        
         float finalDamage = _damageCalculator.CalculateDamage(baseDamage, bulletElement, enemyElement);
         return finalDamage;
-
-        // Aplica el daño al enemigo.
-        //Debug.Log($"Se aplicó {finalDamage} de daño al enemigo.");
     }
 }
 

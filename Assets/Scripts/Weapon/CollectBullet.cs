@@ -30,10 +30,6 @@ namespace Weapon
 
         private void ExchangeBulletFunction(GameObject newBullet)
         {
-            /*
-            Destroy(chamberRotation.chambers[0]);
-            chamberRotation.chambers[0] = newBullet;*/
-        
             Destroy(_chamberRotation.chambers[0]);
 
             // Limpia el nombre de la bala

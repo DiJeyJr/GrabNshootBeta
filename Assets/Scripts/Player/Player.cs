@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -21,11 +22,10 @@ public class Player : MonoBehaviour
     public void TakeDamage(float damage)
     {
         health -= damage;
-        //Debug.Log($"Player health: {health}");
 
         if (health <= 0)
         {
-            //Debug.Log("Player has died.");
+            SceneManager.LoadScene("SampleScene");
         }
     }
 }

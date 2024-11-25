@@ -1,4 +1,3 @@
-// Nombre del archivo: IdleState.cs
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -20,15 +19,13 @@ public class IdleState : IEnemyState
 
     public void Enter()
     {
-        Debug.Log("Entering Idle State");
         _walkPointSet = false;
     }
 
     public void Update()
     {
         Patrol();
-
-        // Cambia al estado de persecución si el jugador está en rango
+        
         if (Vector3.Distance(_agent.transform.position, _player.position) < _enemy.sightRange)
         {
             _enemy.ChangeState(new ChasingState(_enemy, _agent, _player));
@@ -37,7 +34,7 @@ public class IdleState : IEnemyState
 
     public void Exit()
     {
-        Debug.Log("Exiting Idle State");
+        //Debug.Log("Exiting Idle State");
     }
 
     private void Patrol()

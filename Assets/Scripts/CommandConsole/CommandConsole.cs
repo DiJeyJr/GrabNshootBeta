@@ -11,8 +11,7 @@ public class CommandConsole : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-
-        // Aseguramos que la consola no esté visible al principio
+        
         commandInputField.gameObject.SetActive(false);
         consoleOutputText.gameObject.SetActive(false);
     }
@@ -24,7 +23,7 @@ public class CommandConsole : MonoBehaviour
             ToggleConsole();
         }
 
-        // Si la consola está abierta, comprobar si se presiona "Enter" para ejecutar el comando
+        //Open console
         if (commandInputField.gameObject.activeSelf && Input.GetKeyDown(KeyCode.Return))
         {
             ExecuteCommand(commandInputField.text);
@@ -32,7 +31,7 @@ public class CommandConsole : MonoBehaviour
         }
     }
 
-    // Alterna la visibilidad de la consola
+    //Open/Close console function
     private void ToggleConsole()
     {
         bool isActive = commandInputField.gameObject.activeSelf;
@@ -42,10 +41,14 @@ public class CommandConsole : MonoBehaviour
         player.GetComponent<PlayerInputManager>().enabled = isActive;
     }
 
-    // Ejecuta el comando que el jugador ingresa
+    // Execute command
     private void ExecuteCommand(string command)
     {
-        if (command.ToLower() == "godmode")
+        if (command.ToLower() == "help")
+        {
+            consoleOutputText.text = "Command list:\n-godmode: Infinite HP\n-flash: Super speed\n-coolweapon: disable weapon overheat\n \n+Push F10 to Exit";
+        }
+        else if (command.ToLower() == "godmode")
         {
             ActivateGodMode();
         }
@@ -53,23 +56,33 @@ public class CommandConsole : MonoBehaviour
         {
             ActivateFlash();
         }
+        else if (command.ToLower() == "coolweapon")
+        {
+            DisableOverHeat();
+        }
         else
         {
-            consoleOutputText.text = "Comando no reconocido.";
+            consoleOutputText.text = "Unknown command";
         }
     }
 
-    // Habilita el modo Dios (vida infinita)
+    // Godmode
     private void ActivateGodMode()
     {
-        player.health = 9999999; // Vida infinita
-        consoleOutputText.text = "GodMode activado: Vida infinita.";
+        player.health = 9999999;
+        consoleOutputText.text = "GodMode activated: Infinite HP.";
     }
 
-    // Habilita la velocidad altísima (Flash)
+    // Super speed
     private void ActivateFlash()
     {
-        player.GetComponent<PlayerMotor>().speed = 50f; // Aumenta la velocidad
-        consoleOutputText.text = "Flash activado: Velocidad altísima.";
+        player.GetComponent<PlayerMotor>().speed = 50f;
+        consoleOutputText.text = "Flash activated: Super Speed.";
+    }
+
+    private void DisableOverHeat()
+    {
+        player.transform.GetChild(1).GetComponent<ShootFunction>().overHeatCheat = true;
+        consoleOutputText.text = "CoolMode activado: disabled weapon overheat.";
     }
 }

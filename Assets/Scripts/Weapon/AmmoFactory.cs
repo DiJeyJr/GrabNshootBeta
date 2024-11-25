@@ -17,8 +17,8 @@ namespace Weapon
                 case "Fire":
                     ammoPrefab = Resources.Load<GameObject>("Prefabs/FireAmmo");
                     break;
-                case "Wood":
-                    ammoPrefab = Resources.Load<GameObject>("Prefabs/WoodAmmo");
+                case "Water":
+                    ammoPrefab = Resources.Load<GameObject>("Prefabs/WaterAmmo");
                     break;
                 default:
                     Debug.LogError($"Ammo type '{ammoType}' not recognized!");

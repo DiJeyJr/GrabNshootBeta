@@ -19292,11 +19292,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 6144206526777476850, guid: 69edaeff692196a4dab6ebc067bda143,
-        type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 976398227}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34375,12 +34370,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974715965}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &976398227 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6804378839730347315, guid: 69edaeff692196a4dab6ebc067bda143,
-    type: 3}
-  m_PrefabInstance: {fileID: 580457431}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &976602113 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,

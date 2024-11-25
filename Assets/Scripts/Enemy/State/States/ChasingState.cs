@@ -1,33 +1,39 @@
 // Nombre del archivo: ChasingState.cs
 using UnityEngine;
+using UnityEngine.AI;
 
 public class ChasingState : IEnemyState
 {
-    public void EnterState(EnemyStateManager enemy)
+    private EnemyStateMachine _enemy;
+    private NavMeshAgent _agent;
+    private Transform _player;
+
+    public ChasingState(EnemyStateMachine enemy, NavMeshAgent agent, Transform player)
     {
-        //Debug.Log("Enemy started chasing the player.");
-        enemy.agent.speed = enemy.chaseSpeed; // Ajusta la velocidad de persecución
+        _enemy = enemy;
+        _agent = agent;
+        _player = player;
     }
 
-    public void UpdateState(EnemyStateManager enemy)
+    public void Enter()
     {
-        // Persigue al jugador
-        enemy.agent.SetDestination(enemy.player.position);
+        Debug.Log("Entering Chasing State");
+        _agent.speed = _enemy.chaseSpeed;
+    }
 
-        // Gira para mirar al jugador
-        Vector3 direction = (enemy.player.position - enemy.transform.position).normalized;
-        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
-        enemy.transform.rotation = Quaternion.Slerp(enemy.transform.rotation, lookRotation, Time.deltaTime * 5f);
+    public void Update()
+    {
+        _agent.SetDestination(_player.position);
 
-        // Cambia al estado de ataque si está en rango de ataque
-        if (Physics.CheckSphere(enemy.transform.position, enemy.attackRange, enemy.whatIsPlayer))
+        // Cambia al estado de ataque si el jugador está en rango
+        if (Vector3.Distance(_agent.transform.position, _player.position) < _enemy.attackRange)
         {
-            enemy.SwitchState(enemy.AttackingState);
+            _enemy.ChangeState(new AttackingState(_enemy, _agent, _player));
         }
     }
 
-    public void ExitState(EnemyStateManager enemy)
+    public void Exit()
     {
-        //Debug.Log("Enemy stopped chasing the player.");
+        Debug.Log("Exiting Chasing State");
     }
 }

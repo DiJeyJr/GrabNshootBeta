@@ -2702,6 +2702,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -2719,6 +2729,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -6343,6 +6358,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -6360,6 +6385,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -7562,6 +7592,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -7579,6 +7619,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -8832,6 +8877,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -8849,6 +8904,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -10063,6 +10123,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -10080,6 +10150,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -18295,6 +18370,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -18312,6 +18397,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -33721,6 +33811,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -33738,6 +33838,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -39727,6 +39832,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -39744,6 +39859,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -41745,6 +41865,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -41762,6 +41892,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -43726,6 +43861,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -43743,6 +43888,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -44428,6 +44578,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -44445,6 +44605,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -46210,6 +46375,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -46227,6 +46402,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -46808,6 +46988,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -46825,6 +47015,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -46901,6 +47096,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -46918,6 +47123,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -47942,6 +48152,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -47959,6 +48179,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -48198,6 +48423,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -48215,6 +48450,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -52852,6 +53092,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -52869,6 +53119,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -54212,6 +54467,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -54229,6 +54494,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -59961,6 +60231,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -59978,6 +60258,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -62756,6 +63041,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -62773,6 +63068,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -63744,6 +64044,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -63761,6 +64071,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -66804,6 +67119,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -66821,6 +67146,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -70018,6 +70348,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -70035,6 +70375,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -70878,6 +71223,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -70895,6 +71250,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -76404,6 +76764,16 @@ PrefabInstance:
       objectReference: {fileID: 1932356443}
     - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
+      propertyPath: sightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
       propertyPath: walkPointRange
       value: 5
       objectReference: {fileID: 0}
@@ -76421,6 +76791,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -79196,31 +79571,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1172857648}
     m_Modifications:
-    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: agent
-      value: 
-      objectReference: {fileID: 4712056185299706996}
-    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1932356443}
-    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: walkPointRange
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: whatIsGround.m_Bits
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: -2788437140037505618, guid: c125cf58582463a41a1c1b2609c5a8ce,
-        type: 3}
-      propertyPath: whatIsPlayer.m_Bits
-      value: 64
-      objectReference: {fileID: 0}
     - target: {fileID: 5896185276933769606, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_Name
@@ -79229,7 +79579,7 @@ PrefabInstance:
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -143
+      value: -148.6
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -79239,7 +79589,7 @@ PrefabInstance:
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.3
+      value: 11.4
       objectReference: {fileID: 0}
     - target: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
         type: 3}
@@ -79284,12 +79634,6 @@ PrefabInstance:
 --- !u!4 &4712056185299706992 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7262731666102682309, guid: c125cf58582463a41a1c1b2609c5a8ce,
-    type: 3}
-  m_PrefabInstance: {fileID: 4712056185299706986}
-  m_PrefabAsset: {fileID: 0}
---- !u!195 &4712056185299706996 stripped
-NavMeshAgent:
-  m_CorrespondingSourceObject: {fileID: 4201402146795869556, guid: c125cf58582463a41a1c1b2609c5a8ce,
     type: 3}
   m_PrefabInstance: {fileID: 4712056185299706986}
   m_PrefabAsset: {fileID: 0}

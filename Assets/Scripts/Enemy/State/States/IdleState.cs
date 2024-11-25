@@ -1,66 +1,76 @@
 // Nombre del archivo: IdleState.cs
 using UnityEngine;
+using UnityEngine.AI;
 
 public class IdleState : IEnemyState
 {
-    public void EnterState(EnemyStateManager enemy)
+    private EnemyStateMachine _enemy;
+    private NavMeshAgent _agent;
+    private Transform _player;
+    private Vector3 _walkPoint;
+    private bool _walkPointSet;
+    private float _walkPointRange = 10f;
+
+    public IdleState(EnemyStateMachine enemy, NavMeshAgent agent, Transform player)
     {
-        //Debug.Log("Enemy entered Idle State.");
-        enemy.walkPointSet = false;
+        _enemy = enemy;
+        _agent = agent;
+        _player = player;
     }
 
-    public void UpdateState(EnemyStateManager enemy)
+    public void Enter()
     {
-        // Patrullaje
-        Patrol(enemy);
+        Debug.Log("Entering Idle State");
+        _walkPointSet = false;
+    }
+
+    public void Update()
+    {
+        Patrol();
 
         // Cambia al estado de persecución si el jugador está en rango
-        if (Physics.CheckSphere(enemy.transform.position, enemy.sightRange, enemy.whatIsPlayer))
+        if (Vector3.Distance(_agent.transform.position, _player.position) < _enemy.sightRange)
         {
-            enemy.SwitchState(enemy.ChasingState);
+            _enemy.ChangeState(new ChasingState(_enemy, _agent, _player));
         }
     }
 
-    public void ExitState(EnemyStateManager enemy)
+    public void Exit()
     {
-        //Debug.Log("Enemy exited Idle State.");
+        Debug.Log("Exiting Idle State");
     }
 
-    private void Patrol(EnemyStateManager enemy)
+    private void Patrol()
     {
-        if (!enemy.walkPointSet)
+        if (!_walkPointSet)
         {
-            SearchWalkPoint(enemy);
+            SearchWalkPoint();
         }
 
-        if (enemy.walkPointSet)
+        if (_walkPointSet)
         {
-            enemy.agent.SetDestination(enemy.walkPoint);
+            _agent.SetDestination(_walkPoint);
         }
 
-        Vector3 distanceToWalkPoint = enemy.transform.position - enemy.walkPoint;
+        Vector3 distanceToWalkPoint = _agent.transform.position - _walkPoint;
 
-        // Si llegó al punto, busca uno nuevo
         if (distanceToWalkPoint.magnitude < 1f)
         {
-            enemy.walkPointSet = false;
+            _walkPointSet = false;
         }
     }
 
-    private void SearchWalkPoint(EnemyStateManager enemy)
+    private void SearchWalkPoint()
     {
-        float randomZ = Random.Range(-enemy.walkPointRange, enemy.walkPointRange);
-        float randomX = Random.Range(-enemy.walkPointRange, enemy.walkPointRange);
+        float randomZ = Random.Range(-_walkPointRange, _walkPointRange);
+        float randomX = Random.Range(-_walkPointRange, _walkPointRange);
 
-        enemy.walkPoint = new Vector3(
-            enemy.transform.position.x + randomX,
-            enemy.transform.position.y,
-            enemy.transform.position.z + randomZ
+        _walkPoint = new Vector3(
+            _agent.transform.position.x + randomX,
+            _agent.transform.position.y,
+            _agent.transform.position.z + randomZ
         );
 
-        if (Physics.Raycast(enemy.walkPoint, -enemy.transform.up, 2f, enemy.whatIsGround))
-        {
-            enemy.walkPointSet = true;
-        }
+        _walkPointSet = true;
     }
 }

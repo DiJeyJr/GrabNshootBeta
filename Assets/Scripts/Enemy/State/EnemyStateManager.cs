@@ -3,14 +3,14 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class EnemyStateManager : MonoBehaviour
-{
+{/*
     public IEnemyState CurrentState { get; private set; }
 
     // Estados concretos
-    public IdleState IdleState { get; private set; }
-    public ChasingState ChasingState { get; private set; }
-    public AttackingState AttackingState { get; private set; }
-    public DeadState DeadState { get; private set; }
+    private IdleState _idleState;
+    private ChasingState _chasingState;
+    private AttackingState _attackingState;
+    private DeadState _deadState;
 
     [Header("NavMesh Settings")]
     public NavMeshAgent agent;
@@ -25,39 +25,35 @@ public class EnemyStateManager : MonoBehaviour
     [Header("Enemy Settings")]
     public float sightRange;
     public float attackRange;
-    public float chaseSpeed = 5f; // Velocidad modificable para persecución
+    public float chaseSpeed = 5f;
 
     private void Awake()
     {
-        // Instancia de los estados
-        IdleState = new IdleState();
-        ChasingState = new ChasingState();
-        AttackingState = new AttackingState();
-        DeadState = new DeadState();
-
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.FindWithTag("Player").transform;
+
+        // Instanciamos los estados con los parámetros necesarios
+        _idleState = new IdleState();
+        _chasingState = new ChasingState();
+        _attackingState = new AttackingState();
+        _deadState = new DeadState();
     }
 
     private void Start()
     {
         // Estado inicial
-        SwitchState(IdleState);
+        SwitchState(_idleState);
     }
 
     private void Update()
     {
-        // Actualiza el estado actual
         CurrentState?.UpdateState(this);
     }
 
     public void SwitchState(IEnemyState newState)
     {
-        // Salida del estado actual
         CurrentState?.ExitState(this);
-
-        // Cambiar al nuevo estado
         CurrentState = newState;
-        CurrentState?.EnterState(this);
-    }
+        CurrentState.EnterState(this);
+    }*/
 }

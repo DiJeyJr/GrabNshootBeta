@@ -1,60 +1,58 @@
 // Nombre del archivo: AttackingState.cs
 using UnityEngine;
+using UnityEngine.AI;
 
 public class AttackingState : IEnemyState
 {
-    private bool alreadyAttacked = false; // Controla el cooldown del ataque
-    private float attackCooldown = 2f;   // Tiempo entre ataques (en segundos)
+    private EnemyStateMachine _enemy;
+    private NavMeshAgent _agent;
+    private Transform _player;
+    private bool _alreadyAttacked = false;
+    private float _attackCooldown = 2f;
 
-    public void EnterState(EnemyStateManager enemy)
+    public AttackingState(EnemyStateMachine enemy, NavMeshAgent agent, Transform player)
     {
-        //Debug.Log("Enemy is attacking the player.");
+        _enemy = enemy;
+        _agent = agent;
+        _player = player;
     }
 
-    public void UpdateState(EnemyStateManager enemy)
+    public void Enter()
     {
-        // Asegúrate de que el enemigo no se mueva mientras ataca
-        enemy.agent.SetDestination(enemy.transform.position);
+        Debug.Log("Entering Attacking State");
+    }
 
-        // Gira para mirar al jugador
-        Vector3 direction = (enemy.player.position - enemy.transform.position).normalized;
-        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
-        enemy.transform.rotation = Quaternion.Slerp(enemy.transform.rotation, lookRotation, Time.deltaTime * 5f);
 
-        // Realiza el ataque si no está en cooldown
-        if (!alreadyAttacked)
+    public void Update()
+    {
+        _agent.SetDestination(_agent.transform.position);
+
+        if (!_alreadyAttacked)
         {
-            Attack(enemy);
+            Attack();
         }
 
-        // Si el jugador se aleja, vuelve al estado de persecución
-        if (!Physics.CheckSphere(enemy.transform.position, enemy.attackRange, enemy.whatIsPlayer))
+        if (Vector3.Distance(_agent.transform.position, _player.position) > _enemy.attackRange)
         {
-            enemy.SwitchState(enemy.ChasingState);
+            _enemy.ChangeState(new ChasingState(_enemy, _agent, _player));
         }
     }
 
-    public void ExitState(EnemyStateManager enemy)
+    public void Exit()
     {
-        //Debug.Log("Enemy stopped attacking.");
+        Debug.Log("Exiting Attacking State");
     }
 
-    private void Attack(EnemyStateManager enemy)
+    private void Attack()
     {
-        // Simula daño al jugador
         Player.Instance.TakeDamage(10f);
-        //Debug.Log("Player hit!");
-
-        // Activa el cooldown
-        alreadyAttacked = true;
-
-        // Usa un temporizador para desactivar el cooldown
-        enemy.StartCoroutine(ResetAttackCooldown());
+        _alreadyAttacked = true;
+        _enemy.StartCoroutine(ResetAttackCooldown());
     }
 
     private System.Collections.IEnumerator ResetAttackCooldown()
     {
-        yield return new WaitForSeconds(attackCooldown);
-        alreadyAttacked = false;
+        yield return new WaitForSeconds(_attackCooldown);
+        _alreadyAttacked = false;
     }
 }

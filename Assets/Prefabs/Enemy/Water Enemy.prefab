@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 1320357654448461150}
   - component: {fileID: 3034656139438644358}
   - component: {fileID: -8227404369706026422}
-  - component: {fileID: -2788437140037505618}
+  - component: {fileID: 3661316169243230090}
   m_Layer: 0
   m_Name: Water Enemy
   m_TagString: Enemy
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e51b180e35f89854ebde843610579c8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-2788437140037505618
+--- !u!114 &3661316169243230090
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -285,9 +285,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 5896185276933769606}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc227a8058804054bb6eeacada589884, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bdee09a252036945a975f93d1a85ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sightRange: 20
+  attackRange: 3
+  patrolSpeed: 3
+  chaseSpeed: 5
 --- !u!1 &8093298295657783336
 GameObject:
   m_ObjectHideFlags: 0

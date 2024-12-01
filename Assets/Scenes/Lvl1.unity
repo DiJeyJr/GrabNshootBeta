@@ -19237,6 +19237,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 264740983770653075, guid: 69edaeff692196a4dab6ebc067bda143,
+        type: 3}
+      propertyPath: commands.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 264740983770653075, guid: 69edaeff692196a4dab6ebc067bda143,
+        type: 3}
+      propertyPath: commands.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6a6e751231130994ba3ca01bd240c175,
+        type: 2}
+    - target: {fileID: 264740983770653075, guid: 69edaeff692196a4dab6ebc067bda143,
+        type: 3}
+      propertyPath: commands.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 75793ed72979f1a489c61367b0606b00,
+        type: 2}
+    - target: {fileID: 264740983770653075, guid: 69edaeff692196a4dab6ebc067bda143,
+        type: 3}
+      propertyPath: commands.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 65dc6020dff475249804dcd6a763d32d,
+        type: 2}
     - target: {fileID: 5944677612776482551, guid: 69edaeff692196a4dab6ebc067bda143,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33388,6 +33411,50 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b8c35305c86acf4d89a0b1ea9a28360, type: 3}
+--- !u!1 &947311258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 947311259}
+  - component: {fileID: 947311260}
+  m_Layer: 0
+  m_Name: PlayerService
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &947311259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947311258}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1878052796}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &947311260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947311258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b221c6a18d7cf94a9d290ee89e51ac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &952417709 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2f42bd317642dc6479b34dcbbb548e00,
@@ -68473,6 +68540,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1411421626}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1878052794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1878052796}
+  m_Layer: 0
+  m_Name: ServiceLocator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1878052796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878052794}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 716.8099, y: 479.56125, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 947311259}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1879890304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79828,3 +79927,4 @@ SceneRoots:
   - {fileID: 1751349027}
   - {fileID: 5610787611906771283}
   - {fileID: 4621954060401521838}
+  - {fileID: 1878052796}

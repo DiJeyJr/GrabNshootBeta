@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class ServicesStarter : MonoBehaviour
 {
+    [SerializeField] GameObject player;
     private void Start()
     {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        //GameObject player = GameObject.FindGameObjectWithTag("Player"); //Would this be a correct use? Meanwhile I assigned it manually to avoid using fondGameObject
         if (player != null)
         {
             PlayerService playerService = new PlayerService(player);

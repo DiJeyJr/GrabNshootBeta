@@ -1,37 +1,32 @@
 using UnityEngine;
-using UnityEngine.Serialization;
+using System.Collections.Generic;
 
 namespace Weapon
 {
     public class AmmoFactory : MonoBehaviour
     {
+        private static Dictionary<string, GameObject> ammoPrefabs = new Dictionary<string, GameObject>();
+
+        public static void RegisterAmmoPrefab(string ammoType, GameObject prefab)
+        {
+            if (!ammoPrefabs.ContainsKey(ammoType))
+            {
+                ammoPrefabs.Add(ammoType, prefab);
+            }
+        }
+
         public static GameObject CreateAmmo(string ammoType, Transform spawnPoint)
         {
-            GameObject ammoPrefab = null;
-
-            switch (ammoType)
-            {
-                case "Nature":
-                    ammoPrefab = Resources.Load<GameObject>("Prefabs/NatureAmmo");
-                    break;
-                case "Fire":
-                    ammoPrefab = Resources.Load<GameObject>("Prefabs/FireAmmo");
-                    break;
-                case "Water":
-                    ammoPrefab = Resources.Load<GameObject>("Prefabs/WaterAmmo");
-                    break;
-                default:
-                    Debug.LogError($"Ammo type '{ammoType}' not recognized!");
-                    break;
-            }
-
-            if (ammoPrefab != null)
+            if (ammoPrefabs.TryGetValue(ammoType, out GameObject ammoPrefab))
             {
                 GameObject ammoInstance = GameObject.Instantiate(ammoPrefab, spawnPoint.position, spawnPoint.rotation);
                 return ammoInstance;
             }
-
-            return null;
+            else
+            {
+                Debug.LogError($"Ammo type '{ammoType}' not recognized!");
+                return null;
+            }
         }
     }
 }

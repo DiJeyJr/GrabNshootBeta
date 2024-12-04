@@ -3902,6 +3902,7 @@ GameObject:
   - component: {fileID: 1303738617598793422}
   - component: {fileID: 6983047371227436115}
   - component: {fileID: 6144206526777476850}
+  - component: {fileID: 2527361230736139156}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -4072,6 +4073,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   healthBar: {fileID: 6804378839730347315}
+--- !u!114 &2527361230736139156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6064130773604377500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b221c6a18d7cf94a9d290ee89e51ac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6341014954258536611
 GameObject:
   m_ObjectHideFlags: 0
@@ -4530,6 +4543,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   commandInputField: {fileID: 4969236392448093}
   consoleOutputText: {fileID: 7598824234972308575}
+  commands:
+  - {fileID: 11400000, guid: 6a6e751231130994ba3ca01bd240c175, type: 2}
+  - {fileID: 11400000, guid: 75793ed72979f1a489c61367b0606b00, type: 2}
+  - {fileID: 11400000, guid: 65dc6020dff475249804dcd6a763d32d, type: 2}
 --- !u!1 &7401777512794007309
 GameObject:
   m_ObjectHideFlags: 0

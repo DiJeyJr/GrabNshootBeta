@@ -10,13 +10,12 @@ public class CommandConsole : MonoBehaviour
     public Text consoleOutputText;
     [SerializeField] private List<Command> commands;
 
-    private Player player;
+    private GameObject player;
 
     private void Start()
     {
-        PlayerService playerService = ServiceLocator.GetService<PlayerService>();
-        player = playerService?.GetPlayer()?.GetComponent<Player>();
-
+        player = ServiceLocator.Get<ICharactersService>().GetPlayerCharacter();
+        
         if (player == null)
         {
             Debug.LogError("Player not found or PlayerService is not registered.");

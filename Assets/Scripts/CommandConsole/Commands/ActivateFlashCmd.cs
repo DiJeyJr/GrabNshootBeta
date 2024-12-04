@@ -5,13 +5,12 @@ public class ActivateFlashCmd : Command
 {
     public override void Execute()
     {
-        PlayerService playerService = ServiceLocator.GetService<PlayerService>();
-        Player player = playerService?.GetPlayer()?.GetComponent<Player>();
+        Player player = ServiceLocator.Get<ICharactersService>().GetPlayerCharacter().GetComponent<Player>();
         
         if (player != null)
         {
             player.GetComponent<PlayerMotor>().speed = 50f;
-            Debug.Log("Flash activated: Super Speed.");
+            //Debug.Log("Flash activated: Super Speed.");
         }
     }
 

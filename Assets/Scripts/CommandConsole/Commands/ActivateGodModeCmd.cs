@@ -9,7 +9,7 @@ public class ActivateGodModeCmd : Command
         
         if (player != null)
         {
-            player.health = 9999999;
+            player.GetComponent<HealthManager>().GetHeal(999999999999999);
             //Debug.Log("GodMode activated: Infinite HP.");
         }
     }

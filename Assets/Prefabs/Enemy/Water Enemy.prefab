@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 3034656139438644358}
   - component: {fileID: -8227404369706026422}
   - component: {fileID: 3661316169243230090}
+  - component: {fileID: 5403801351004787842}
   m_Layer: 0
   m_Name: Water Enemy
   m_TagString: Enemy
@@ -211,7 +212,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5896185276933769606}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 12
@@ -261,9 +262,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b72a80110f07b7c4597e78b168c63c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyElement: 1
-  health: 100
-  healthBar: {fileID: 8654150285274667237}
 --- !u!114 &-8227404369706026422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,6 +290,23 @@ MonoBehaviour:
   attackRange: 3
   patrolSpeed: 3
   chaseSpeed: 5
+--- !u!114 &5403801351004787842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5896185276933769606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3e445ef3542b9b4f815c76883331b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadSceneOnDeath: 0
+  Scene: 
+  stats: {fileID: 11400000, guid: f06df3665f8a82242a5493397f65853e, type: 2}
+  charElement: 1
+  healthBar: {fileID: 8654150285274667237}
 --- !u!1 &8093298295657783336
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,37 +1,37 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Rendering;
 using UnityEngine;
 
 public class DealDamage : MonoBehaviour
 {
     [SerializeField] private string targetTag;
     [SerializeField] private int damage;
-    [SerializeField] private ElementalMultiplierManager.Element bulletElement;
-    
-    //Multiplier
-    private ElementalMultiplierManager elementMultiplierManager;
+    [SerializeField] private ElementType bulletElement;
+
+    // Multiplier
+    private DamageManager damageManager;
 
     private void Start()
     {
-        elementMultiplierManager = gameObject.AddComponent<ElementalMultiplierManager>();
+        damageManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<DamageManager>();
     }
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.GetComponent<HealthManager>() != null)
+        HealthManager healthManager = other.gameObject.GetComponent<HealthManager>();
+        if (healthManager != null && other.gameObject.CompareTag(targetTag))
         {
-            DamageFunction(other.gameObject, damage, elementMultiplierManager.CalculateElementalMultiplier(bulletElement, other.gameObject.GetComponent<HealthManager>().charElement));
+            float finalDamage = damageManager.CalculateDamage(damage, bulletElement, healthManager.charElement);
+            DamageFunction(other.gameObject, finalDamage);
             Destroy(this.gameObject);
         }
-            
     }
-    
 
-    public void DamageFunction(GameObject target, int damage, int multiplier)
+    public void DamageFunction(GameObject target, float finalDamage)
     {
-        target.GetComponent<HealthManager>().TakeDamage(damage * multiplier);
-            
+        HealthManager healthManager = target.GetComponent<HealthManager>();
+        if (healthManager != null)
+        {
+            healthManager.GetDamage((int)finalDamage); // Convertir finalDamage a int si es necesario
+        }
     }
 }

@@ -2,12 +2,6 @@ using UnityEngine;
 
 namespace Weapon
 {
-    public interface IAmmo
-    {
-        void OnShoot();
-        void OnHit();
-    }
-    
     public class FireAmmo : MonoBehaviour, IAmmo
     {
         public void OnShoot()

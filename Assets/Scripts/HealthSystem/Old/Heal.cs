@@ -6,7 +6,7 @@ public class Heal : MonoBehaviour
 {
     public void HealFunction(GameObject target, int amount)
     {
-        target.GetComponent<HealthManager>().Heal(amount);
+        target.GetComponent<HealthManager>().GetHeal(amount);
         
     }
 }

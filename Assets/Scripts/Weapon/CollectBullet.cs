@@ -35,8 +35,8 @@ namespace Weapon
             // Limpia el nombre de la bala
             string ammoType = newBullet.name.Replace("Ammo", "").Split('(')[0].Trim();
 
-            // Crea la bala usando la fábrica
-            GameObject ammoInstance = AmmoFactory.CreateAmmo(ammoType, _chamberRotation.chambersTransform[0]);
+            // Crea la bala usando la fábrica abstracta
+            GameObject ammoInstance = AmmoAbstractFactory.CreateAmmo(ammoType, _chamberRotation.chambersTransform[0]);
             if (ammoInstance != null)
             {
                 _chamberRotation.chambers[0] = ammoInstance;
@@ -48,3 +48,5 @@ namespace Weapon
         }
     }
 }
+
+

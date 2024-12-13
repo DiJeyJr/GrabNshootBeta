@@ -82,7 +82,7 @@ public class ShootFunction : MonoBehaviour
         }
         
         string bulletType = bullet.name.Replace("Ammo", "").Split('(')[0].Trim(); // Obtain Bullet Type
-        GameObject instantiatedBullet = AmmoFactory.CreateAmmo(bulletType, bullet.transform);
+        GameObject instantiatedBullet = AmmoAbstractFactory.CreateAmmo(bulletType, bullet.transform);
 
         if (instantiatedBullet != null)
         {

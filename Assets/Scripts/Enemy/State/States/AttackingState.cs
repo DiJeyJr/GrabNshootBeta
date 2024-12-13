@@ -21,10 +21,12 @@ public class AttackingState : IEnemyState
         //Debug.Log("Entering Attacking State");
     }
 
-
     public void Update()
     {
-        _agent.SetDestination(_agent.transform.position);
+        if (_agent.enabled)
+        {
+            _agent.SetDestination(_agent.transform.position);
+        }
 
         if (!_alreadyAttacked)
         {
@@ -44,7 +46,7 @@ public class AttackingState : IEnemyState
 
     private void Attack()
     {
-        Player.Instance.TakeDamage(10f);
+        Player.Instance.GetComponent<HealthManager>().GetDamage(10f);
         _alreadyAttacked = true;
         _enemy.StartCoroutine(ResetAttackCooldown());
     }

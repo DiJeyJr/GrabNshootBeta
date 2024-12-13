@@ -1,4 +1,3 @@
-// Nombre del archivo: ChasingState.cs
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -23,8 +22,11 @@ public class ChasingState : IEnemyState
 
     public void Update()
     {
-        _agent.SetDestination(_player.position);
-        
+        if (_agent.enabled)
+        {
+            _agent.SetDestination(_player.position);
+        }
+
         if (Vector3.Distance(_agent.transform.position, _player.position) < _enemy.attackRange)
         {
             _enemy.ChangeState(new AttackingState(_enemy, _agent, _player));

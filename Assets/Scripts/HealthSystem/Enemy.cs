@@ -1,45 +1,28 @@
-using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
-    public ElementType enemyElement;
-    public float health = 100f;
-    private float maxHealth;
+    private EnemyStatsFlyweight stats;
+    private IHealthSystem healthDecorator;
 
-    [SerializeField] private bool isBoss = false;
-    
-    [SerializeField] private GameObject healthBar;
-    private HealthBar healthBarScript;
-    
-    private void Start()
+    public void SetStats(EnemyStatsFlyweight stats)
     {
-        maxHealth = health;
-        if (healthBar.GetComponent<HealthBar>()!= null)
-            healthBarScript = healthBar.GetComponent<HealthBar>();
-    }
-    
-    private void Update()
-    {
-        if (healthBarScript != null)
-            healthBarScript.updateHealthBar(health, maxHealth);
+        this.stats = stats;
     }
 
-    public void TakeDamage(float damage)
+    public void SetHealthDecorator(IHealthSystem healthDecorator)
     {
-        health -= damage;
-        //Debug.Log($"Salud restante: {health}");
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-            if (isBoss)
-            {
-                SceneManager.LoadScene("SampleScene");
-            }
-        }
+        this.healthDecorator = healthDecorator;
     }
 
-    
+    public Enemy Clone(Vector3 position, Quaternion rotation)
+    {
+        GameObject clone = Instantiate(gameObject, position, rotation);
+        Enemy clonedEnemy = clone.GetComponent<Enemy>();
+        
+        clonedEnemy.SetStats(this.stats);
+        clonedEnemy.SetHealthDecorator(this.healthDecorator);
+
+        return clonedEnemy;
+    }
 }
-

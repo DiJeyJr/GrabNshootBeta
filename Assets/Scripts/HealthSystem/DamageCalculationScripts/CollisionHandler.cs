@@ -5,15 +5,15 @@ public class CollisionHandler : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         Bullet bullet = collision.gameObject.GetComponent<Bullet>();
-        Enemy enemy = GetComponent<Enemy>();
+        HealthManager enemy = GetComponent<HealthManager>();
 
         if (bullet != null && enemy != null)
         {
             DamageManager damageManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<DamageManager>();
-            enemy.TakeDamage(damageManager.CalculateDamage(bullet.baseDamage, bullet.bulletElement, enemy.enemyElement));
+            float finalDamage = damageManager.CalculateDamage(bullet.baseDamage, bullet.bulletElement, enemy.charElement);
+            enemy.GetDamage((int)finalDamage); // Convertir finalDamage a int si es necesario
 
             Destroy(bullet.gameObject);
         }
     }
 }
-

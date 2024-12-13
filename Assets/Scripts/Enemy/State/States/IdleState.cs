@@ -25,7 +25,7 @@ public class IdleState : IEnemyState
     public void Update()
     {
         Patrol();
-        
+
         if (Vector3.Distance(_agent.transform.position, _player.position) < _enemy.sightRange)
         {
             _enemy.ChangeState(new ChasingState(_enemy, _agent, _player));
@@ -44,7 +44,7 @@ public class IdleState : IEnemyState
             SearchWalkPoint();
         }
 
-        if (_walkPointSet)
+        if (_walkPointSet && _agent.enabled)
         {
             _agent.SetDestination(_walkPoint);
         }

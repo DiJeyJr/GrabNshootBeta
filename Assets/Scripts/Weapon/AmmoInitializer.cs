@@ -9,8 +9,8 @@ public class AmmoInitializer : MonoBehaviour
 
     void Start()
     {
-        AmmoFactory.RegisterAmmoPrefab("Fire", fireAmmoPrefab);
-        AmmoFactory.RegisterAmmoPrefab("Nature", natureAmmoPrefab);
-        AmmoFactory.RegisterAmmoPrefab("Water", waterAmmoPrefab);
+        AmmoAbstractFactory.RegisterAmmoFactory("Fire", new FireAmmoFactory(fireAmmoPrefab));
+        AmmoAbstractFactory.RegisterAmmoFactory("Nature", new NatureAmmoFactory(natureAmmoPrefab));
+        AmmoAbstractFactory.RegisterAmmoFactory("Water", new WaterAmmoFactory(waterAmmoPrefab));
     }
 }
